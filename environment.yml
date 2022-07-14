@@ -1,0 +1,24 @@
+name: taller3
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.7
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pytorch
+  - torchvision
+  - torchtext
+  - opencv
+  - pip:
+    - keras
+    - tensorflow
+
